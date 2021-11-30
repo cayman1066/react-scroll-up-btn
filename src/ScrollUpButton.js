@@ -1,4 +1,6 @@
 import React from 'react';
+import { Button } from "antd";
+import 'antd/dist/antd.css';
 
 class ScrollUpButton extends React.Component {
     constructor(props) {
@@ -13,7 +15,6 @@ class ScrollUpButton extends React.Component {
 
     componentDidMount() {
         window.addEventListener("scroll", this.onScroll);
-        console.log("HERE I AM")
     }
 
     onScroll() {
@@ -33,7 +34,9 @@ class ScrollUpButton extends React.Component {
         return (
             <React.Fragment>
                 <div>
-                    SCROLL
+                    <Button type="primary" size="large" onClick={() => alert("Awesome!")}>
+                        Click me!
+                    </Button>
                 </div>
 
             </React.Fragment>

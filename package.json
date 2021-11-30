@@ -5,7 +5,7 @@
     "main": "./lib/ScrollUpButton.js",
     "repository": {
         "type": "git",
-        "url" : "https://github.com/cayman1066/react-scroll-up-button"
+        "url": "https://github.com/cayman1066/react-scroll-up-button"
     },
     "keywords": [
         "react",
@@ -20,6 +20,7 @@
         "url": "https://github.com/cayman1066/react-scroll-up-button"
     },
     "peerDependencies": {
+        "antd": "^4.17.2",
         "prop-types": "^15.6.0",
         "react": "^16.0.0",
         "react-dom": "^16.0.0"
