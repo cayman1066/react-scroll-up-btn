@@ -1,6 +1,4 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 
 class ScrollUpButton extends React.Component {
     constructor(props) {
@@ -32,18 +30,13 @@ class ScrollUpButton extends React.Component {
 
     render() {
 
-        const {
-            IconSize,
-            appearCoordinate,
-        } = this.props;
-
         return (
-            <>
+            <React.Fragment>
                 <div>
                     SCROLL
                 </div>
 
-            </>
+            </React.Fragment>
         )
     }
 }
