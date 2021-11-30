@@ -5,7 +5,7 @@
     "main": "./lib/ScrollUpButton.js",
     "repository": {
         "type": "git",
-        "url" : "https://github.com/weianofsteel/react-scroll-up-button"
+        "url" : "https://github.com/cayman1066/react-scroll-up-button"
     },
     "keywords": [
         "react",
@@ -17,7 +17,7 @@
     },
     "author": "Weian Wang",
     "bugs": {
-        "url": "https://github.com/weianofsteel/react-scroll-up-button"
+        "url": "https://github.com/cayman1066/react-scroll-up-button"
     },
     "peerDependencies": {
         "prop-types": "^15.6.0",

@@ -11,6 +11,7 @@
 
 # .publish cache
 .publish
+.idea
 
 # misc
 .DS_Store
