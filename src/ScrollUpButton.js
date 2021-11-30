@@ -15,6 +15,7 @@ class ScrollUpButton extends React.Component {
 
     componentDidMount() {
         window.addEventListener("scroll", this.onScroll);
+        console.log("HERE I AM")
     }
 
     onScroll() {
