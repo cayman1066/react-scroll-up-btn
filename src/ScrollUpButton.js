@@ -22,7 +22,7 @@ class ScrollUpButton extends React.Component {
             scrollC: window.scrollY
         });
     }
-    
+
     handleScrolltoTop() {
         if(window !== undefined) {
             window.scrollTo({top: 0, behavior: (this.props.behavior?this.props.behavior:'auto')})
@@ -31,7 +31,7 @@ class ScrollUpButton extends React.Component {
 
     render() {
 
-        const { 
+        const {
             IconSize,
             appearCoordinate,
         } = this.props;
@@ -40,13 +40,13 @@ class ScrollUpButton extends React.Component {
             <React.Fragment>
 
                 <div>
-
+                    SCROLL
                 {this.state.scrollC > (appearCoordinate?appearCoordinate:1200) ?
-                    <Button 
+                    <Button
                         onClick={this.handleScrolltoTop}
                     >
                         <ExpandLessIcon style={{fontSize:IconSize?IconSize:'60px'}}/>
-                    </Button>:''
+                        Scroll                    </Button>:''
                 }
 
                 </div>
